@@ -1,27 +1,16 @@
-# React + TypeScript + Vite
+# React + Vite + TypeScript
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### Proyecto: Calorie Tracker
 
-Currently, two official plugins are available:
+Aplicación dirigida a cualquier cliente que desee llevar un control del su consumo calórico durante un periodo de tiempo de su elección
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Conocimientos Aplicados
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+* **CSS:** TailWindCSS
+* **useReducer:** Para el manejo del State, dando oportunidad a un mejor mantenimiendo y escalabilidad del código
+* **Context API:** Para manejo del State de manera global, evitando así el famoso "drill props" y mejorando la calidad y escalabilidad del código.
+* **Optimización del Performance:** Mediante la renderización de ciertos componentes a través de ciertas condiciones, así como también con ayuda de useMemo/useCallback
+---
+**Créditos:** Juan Pablo de la Torre Vázquez <br>
+**Plataforma de enseñanza:** Udemy <br>
+**Curso:** React y TypeScript - La Guía Completa Creando +10 Proyectos
